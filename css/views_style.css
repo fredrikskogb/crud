@@ -1,0 +1,81 @@
+p, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #ffa73d;
+}
+
+.checkout {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 30vw;
+    border: 1px solid black;
+}
+
+.confirm {
+    font-family: 'Roboto', sans-serif;
+    color: #ffa73d;
+    font-size: 2rem;
+    text-decoration: none;
+    width: 10%;
+    margin-top: 20px;
+}
+
+.confirm:hover {
+    color: #e6a04a;
+}
+
+.confirm_paragraph {
+    text-align: center;
+}
+
+.order {
+    text-align: center;
+}
+
+
+
+/* Register_view.php, login_view.php */
+
+.wrapper_user_information {
+    margin: 0;
+    text-align: center;
+}
+
+.wrapper_user_information p {
+    text-align: center;
+}
+
+.wrapper_user_information form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper_user_information form div {
+    display:flex;
+    flex-direction: column;
+}
+
+.error_message {
+    color: red;
+}
+
+/* confirm.php */
+
+.confirm_wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper_user_information {
+        width: 300px;
+    }
+}
